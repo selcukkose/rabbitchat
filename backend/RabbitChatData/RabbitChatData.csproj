@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\RabbitChatConfig\RabbitChatConfig.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BookSleeve" Version="1.3.41" />
+    <PackageReference Include="Npgsql" Version="4.0.9" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.6.0-preview8.19405.3" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

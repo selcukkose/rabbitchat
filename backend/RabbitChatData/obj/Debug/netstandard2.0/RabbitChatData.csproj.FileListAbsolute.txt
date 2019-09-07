@@ -1,0 +1,12 @@
+/home/selcuk/Documents/Rabbit Chat/backend/RabbitChatData/bin/Debug/netstandard2.0/RabbitChatData.deps.json
+/home/selcuk/Documents/Rabbit Chat/backend/RabbitChatData/bin/Debug/netstandard2.0/RabbitChatData.dll
+/home/selcuk/Documents/Rabbit Chat/backend/RabbitChatData/bin/Debug/netstandard2.0/RabbitChatData.pdb
+/home/selcuk/Documents/Rabbit Chat/backend/RabbitChatData/bin/Debug/netstandard2.0/RabbitChatConfig.dll
+/home/selcuk/Documents/Rabbit Chat/backend/RabbitChatData/bin/Debug/netstandard2.0/RabbitChatConfig.pdb
+/home/selcuk/Documents/Rabbit Chat/backend/RabbitChatData/obj/Debug/netstandard2.0/RabbitChatData.csprojAssemblyReference.cache
+/home/selcuk/Documents/Rabbit Chat/backend/RabbitChatData/obj/Debug/netstandard2.0/RabbitChatData.csproj.CoreCompileInputs.cache
+/home/selcuk/Documents/Rabbit Chat/backend/RabbitChatData/obj/Debug/netstandard2.0/RabbitChatData.AssemblyInfoInputs.cache
+/home/selcuk/Documents/Rabbit Chat/backend/RabbitChatData/obj/Debug/netstandard2.0/RabbitChatData.AssemblyInfo.cs
+/home/selcuk/Documents/Rabbit Chat/backend/RabbitChatData/obj/Debug/netstandard2.0/RabbitChatData.csproj.CopyComplete
+/home/selcuk/Documents/Rabbit Chat/backend/RabbitChatData/obj/Debug/netstandard2.0/RabbitChatData.dll
+/home/selcuk/Documents/Rabbit Chat/backend/RabbitChatData/obj/Debug/netstandard2.0/RabbitChatData.pdb
