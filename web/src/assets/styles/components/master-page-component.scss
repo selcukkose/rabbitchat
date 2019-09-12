@@ -1,0 +1,28 @@
+.master-page {
+	&>.top-bar {
+		background-color: #8A4966;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		padding: 0px 2vw;
+		height: 3vw;
+		display: flex;
+		align-items: center;
+
+		&>.logo {
+			display: flex;
+			align-items: center;
+			width: 10vw;
+
+			&>img {
+				width: 2vw;
+			}
+
+			&>.logo-text {
+				color: white;
+				padding-left: 7px;
+			}
+		}
+	}
+}

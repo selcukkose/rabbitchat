@@ -1,0 +1,30 @@
+body {
+	@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+	font-family: 'Nunito', sans-serif;
+}
+
+.master-page > .top-bar {
+  background-color: #8A4966;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 0px 2vw;
+  height: 3vw;
+  display: flex;
+  align-items: center;
+}
+.master-page > .top-bar > .logo {
+  display: flex;
+  align-items: center;
+  width: 10vw;
+}
+.master-page > .top-bar > .logo > img {
+  width: 2vw;
+}
+.master-page > .top-bar > .logo > .logo-text {
+  color: white;
+  padding-left: 7px;
+}
+
+/*# sourceMappingURL=main.css.map */
