@@ -1,8 +1,4 @@
-body {
-	@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-	font-family: 'Nunito', sans-serif;
-}
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 .master-page > .top-bar {
   background-color: #8A4966;
   position: fixed;
@@ -25,6 +21,70 @@ body {
 .master-page > .top-bar > .logo > .logo-text {
   color: white;
   padding-left: 7px;
+}
+.master-page > .top-bar > .login-btns {
+  position: absolute;
+  right: 6vw;
+}
+.master-page > .top-bar > .login-btns > .login-btn {
+  padding: 0.4vw 1vw;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-weight: 100;
+  margin: 0px 0.2vw;
+  transition: all 0.5s;
+}
+.master-page > .top-bar > .login-btns > .login-btn:hover {
+  background-color: white;
+  color: #8A4966;
+  cursor: pointer;
+}
+.master-page > .banner {
+  margin-top: 10vw;
+  margin-left: 6vw;
+}
+.master-page > .banner > .banner-text-container {
+  font-weight: 800;
+  font-size: 2.8vw;
+  color: #344663;
+}
+.master-page > .banner > .banner-text-container > .banner-type-text-container {
+  display: inline-block;
+}
+.master-page > .banner > .banner-text-container > .banner-type-text-container > .banner-type-text {
+  display: inline-block;
+  overflow: hidden;
+  animation: typing 2s steps(30, end) infinite alternate-reverse, blink 0.75s step-end infinite;
+  border-right: 4px solid #8A4966;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #8A4966;
+  }
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */

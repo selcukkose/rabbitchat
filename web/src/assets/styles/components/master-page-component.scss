@@ -24,5 +24,80 @@
 				padding-left: 7px;
 			}
 		}
+
+		&>.login-btns {
+			position: absolute;
+			right: 6vw;
+
+			&>.login-btn {
+				padding: 0.4vw 1vw;
+				color: white;
+				border: 1px solid white;
+				border-radius: 4px;
+				font-weight: 100;
+				margin: 0px 0.2vw;
+				transition: all 0.5s;
+			}
+
+			&>.login-btn:hover {
+				background-color: white;
+				color: #8A4966;
+				cursor: pointer;
+			}
+		}
+	}
+
+	&>.banner {
+		margin-top: 10vw;
+		margin-left: 6vw;
+
+		&>.banner-text-container {
+			font-weight: 800;
+			font-size: 2.8vw;
+			color: #344663;
+
+			&>.banner-type-text-container {
+				display: inline-block;
+
+				&>.banner-type-text {
+					display: inline-block;
+					overflow: hidden;
+					animation: typing 2s steps(30, end) infinite alternate-reverse,
+						blink .75s step-end infinite;
+					border-right: 4px solid #8A4966;
+					box-sizing: border-box;
+					white-space: nowrap;
+				}
+			}
+		}
+	}
+
+	@keyframes typing {
+		from {
+			width: 0%;
+		}
+
+		to {
+			width: 100%;
+		}
+
+		from {
+			width: 100%;
+		}
+		to {
+			width: 0%;
+		}
+	}
+
+	@keyframes blink {
+
+		from,
+		to {
+			border-color: transparent;
+		}
+
+		50% {
+			border-color: #8A4966;
+		}
 	}
 }
